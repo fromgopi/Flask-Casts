@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+
+  web:
+    image: project:latest
+    expose:
+      - "8000"
+    volumes:
+      - /usr/src/app/web
+    command: /usr/local/bin/gunicorn -w 2 -b :8000 app:app
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "81:80"
+    depends_on:
+      - web
