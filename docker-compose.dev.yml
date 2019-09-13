@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+  python:
+    build: ./web
+    expose:
+      - 5000
+    links:
+      - db
+    volumes:
+      - ./web:/home/flask/app/web
+    environment:
+      FLASK_ENV: development
+    command: /usr/local/bin/python app.py
+
+  db:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/:ro
