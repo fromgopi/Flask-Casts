@@ -2,7 +2,7 @@
 My experiments with Flask and Python
 
 # To run the app in local env. 
-cd web 
+cd web  
 pip install -r requirements.txt
 python3 app.py
  
