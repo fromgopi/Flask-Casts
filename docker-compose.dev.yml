@@ -3,7 +3,7 @@ version: '2'
 services:
   python:
     build: ./web
-    expose:
+    expose: 
       - 5000
     links:
       - db
