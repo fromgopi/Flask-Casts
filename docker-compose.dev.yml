@@ -7,7 +7,7 @@ services:
       - 5000
     links:
       - db
-    volumes:
+    volumes: 
       - ./web:/home/flask/app/web
     environment: 
       FLASK_ENV: development 
