@@ -9,7 +9,7 @@ services:
       - db
     volumes:
       - ./web:/home/flask/app/web
-    environment:
+    environment: 
       FLASK_ENV: development 
     command: /usr/local/bin/python app.py
 
