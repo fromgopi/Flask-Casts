@@ -13,4 +13,3 @@ VALUES
 ('Galahad', 'yellow');
 
 
-
