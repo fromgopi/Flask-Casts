@@ -11,3 +11,4 @@ INSERT INTO favorite_colors
 VALUES
 ('Lancelot', 'blue'),
 ('Galahad', 'yellow');
+
