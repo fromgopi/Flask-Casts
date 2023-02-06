@@ -11,7 +11,7 @@ python3 app.py
 
 
 cd web
-docker build -t project -f Dockerfile .
+docker build -t project -f Dockerfile . 
 cd ../
 docker-compose up -d 
 
