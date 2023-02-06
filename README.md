@@ -14,7 +14,7 @@ cd web
 docker build -t project -f Dockerfile . 
 cd ../
 docker-compose up -d 
-
+ 
 # To check if app is running
 docker ps.
 
