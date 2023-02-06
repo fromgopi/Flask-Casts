@@ -18,3 +18,4 @@ docker-compose up -d
 # To check if app is running
 docker ps.
 
+
