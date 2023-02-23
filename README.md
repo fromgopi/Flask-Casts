@@ -4,7 +4,7 @@ My experiments with Flask and Python
 
 # To run the app in local env.  
 cd web  
-pip install -r requirements.txt 
+pip install -r requirements.txt  
 python3 app.py
       
 # To run in Develop server
