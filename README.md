@@ -8,6 +8,7 @@ pip install -r requirements.txt
 python3 app.py
       
 # To run in Develop server
+
  
 
 cd web
