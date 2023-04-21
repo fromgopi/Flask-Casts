@@ -10,7 +10,7 @@ def index():
     return "<h1 style='color:blue'>Hello There!</h1>"
 
 
-@app.route('/plus_one')
+@app.route('/plus_one') 
 def one_plus():
     x = int(request.args.get('x', 1))
     return json.dumps({
