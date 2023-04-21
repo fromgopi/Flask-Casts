@@ -38,3 +38,4 @@ app.register_blueprint(tree_mould, url_prefix='/oak')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
+    
