@@ -7,3 +7,5 @@ def client():
 
     app.app.config['TESTING'] = True
     yield app.app.test_client()
+
+    
